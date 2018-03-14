@@ -1,0 +1,25 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.20)  9 DEC 2015 09:20
+entering extended mode
+**D:/revtex4-1-tds/doc/latex/revtex/00readme.tex
+(D:/revtex4-1-tds/doc/latex/revtex/00readme.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+! Undefined control sequence.
+l.11 \maketitle
+               
+? 
+! Emergency stop.
+l.11 \maketitle
+               
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 11 strings out of 493673
+ 228 string characters out of 3143959
+ 52455 words of memory out of 3000000
+ 3458 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 7i,0n,6p,128b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
