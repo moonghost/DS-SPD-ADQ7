@@ -1,0 +1,418 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (-1) disabled
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{29}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Lo}\ \emph {et~al.}(2014)\citenamefont {Lo},
+  \citenamefont {Curty},\ and\ \citenamefont {Tamaki}}]{Lo-qkd2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Lo}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Curty}}, \ and\
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Tamaki}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Photon.}\ }\textbf
+  {\bibinfo {volume} {8}},\ \bibinfo {pages} {595} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tang}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Tang}, \citenamefont {Sun},
+  \citenamefont {Chen}, \citenamefont {Li},\ and\ \citenamefont
+  {Liang}}]{Guang-Zhao2016Time-bin}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.-Z.}\ \bibnamefont
+  {Tang}}, \bibinfo {author} {\bibfnamefont {S.-H.}\ \bibnamefont {Sun}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {C.-Y.}\ \bibnamefont {Li}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {L.-M.}\ \bibnamefont {Liang}},\ }\href
+  {http://stacks.iop.org/0256-307X/33/i=12/a=120301} {\bibfield  {journal}
+  {\bibinfo  {journal} {Chinese Physics Letters}\ }\textbf {\bibinfo {volume}
+  {33}},\ \bibinfo {pages} {120301} (\bibinfo {year}
+  {2016}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tang}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Tang}, \citenamefont {Sun},
+  \citenamefont {Xu}, \citenamefont {Chen}, \citenamefont {Li},\ and\
+  \citenamefont {Liang}}]{Tang2016plug-and-play}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.-Z.}\ \bibnamefont
+  {Tang}}, \bibinfo {author} {\bibfnamefont {S.-H.}\ \bibnamefont {Sun}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Xu}}, \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont
+  {C.-Y.}\ \bibnamefont {Li}}, \ and\ \bibinfo {author} {\bibfnamefont {L.-M.}\
+  \bibnamefont {Liang}},\ }\bibfield  {booktitle} {\emph {\bibinfo {booktitle}
+  {Physical Review A}},\ }\href@noop {} {\ \textbf {\bibinfo {volume} {94}}
+  (\bibinfo {year} {2016}{\natexlab{b}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jayakumar}\ \emph {et~al.}(2014)\citenamefont
+  {Jayakumar}, \citenamefont {Predojević}, \citenamefont {Kauten},
+  \citenamefont {Huber}, \citenamefont {Solomon},\ and\ \citenamefont
+  {Weihs}}]{Gregor-time-bin-dot-2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Jayakumar}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Predojević}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kauten}},
+  \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont {Huber}, \bibfnamefont
+  {Tobias}}, \bibinfo {author} {\bibfnamefont {G.~S.}\ \bibnamefont {Solomon}},
+  \ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Weihs}},\ }\href
+  {\doibase 10.1038/ncomms5251} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {5251} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yin}\ \emph {et~al.}(2017)\citenamefont {Yin},
+  \citenamefont {Cao}, \citenamefont {Li}, \citenamefont {Liao}, \citenamefont
+  {Zhang}, \citenamefont {Ren}, \citenamefont {Cai}, \citenamefont {Liu},
+  \citenamefont {Li},\ and\ \citenamefont {Dai}}]{Yin-Pan-Satellite-2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Yin}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Cao}}, \bibinfo
+  {author} {\bibfnamefont {Y.~H.}\ \bibnamefont {Li}}, \bibinfo {author}
+  {\bibfnamefont {S.~K.}\ \bibnamefont {Liao}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {J.~G.}\ \bibnamefont {Ren}}, \bibinfo {author} {\bibfnamefont {W.~Q.}\
+  \bibnamefont {Cai}}, \bibinfo {author} {\bibfnamefont {W.~Y.}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Li}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Dai}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Science}\ }\textbf {\bibinfo
+  {volume} {356}},\ \bibinfo {pages} {1140} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ \emph {et~al.}(2015)\citenamefont {Zhou},
+  \citenamefont {He}, \citenamefont {You}, \citenamefont {Chen}, \citenamefont
+  {Zhang}, \citenamefont {Wu}, \citenamefont {Wang},\ and\ \citenamefont
+  {Xie}}]{Zhou2015Few-photon-imaging}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Zhou}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {He}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {You}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Wu}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Wang}}, \ and\ \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Xie}},\
+  }\href {\doibase 10.1364/OE.23.014603} {\bibfield  {journal} {\bibinfo
+  {journal} {Opt. Express}\ }\textbf {\bibinfo {volume} {23}},\ \bibinfo
+  {pages} {14603} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Warburton}\ \emph {et~al.}(2007)\citenamefont
+  {Warburton}, \citenamefont {McCarthy}, \citenamefont {Wallace}, \citenamefont
+  {Hernandez-Marin}, \citenamefont {Hadfield}, \citenamefont {Nam},\ and\
+  \citenamefont {Buller}}]{Warburton2007Subcentimeter}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~E.}\ \bibnamefont
+  {Warburton}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {McCarthy}},
+  \bibinfo {author} {\bibfnamefont {A.~M.}\ \bibnamefont {Wallace}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Hernandez-Marin}}, \bibinfo
+  {author} {\bibfnamefont {R.~H.}\ \bibnamefont {Hadfield}}, \bibinfo {author}
+  {\bibfnamefont {S.~W.}\ \bibnamefont {Nam}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {G.~S.}\ \bibnamefont {Buller}},\ }\href {\doibase
+  10.1364/OL.32.002266} {\bibfield  {journal} {\bibinfo  {journal} {Opt.
+  Lett.}\ }\textbf {\bibinfo {volume} {32}},\ \bibinfo {pages} {2266} (\bibinfo
+  {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pan}\ \emph {et~al.}(2006)\citenamefont {Pan},
+  \citenamefont {Dong}, \citenamefont {Zeng},\ and\ \citenamefont
+  {Lu}}]{HPan-Upconversion2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Pan}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Dong}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Zeng}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Lu}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Appl. Phys. Lett.}\ }\textbf {\bibinfo {volume} {89}},\
+  \bibinfo {pages} {191108} (\bibinfo {year} {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Marsili}\ \emph {et~al.}(2013)\citenamefont
+  {Marsili}, \citenamefont {Verma},\ and\ \citenamefont
+  {Nam}}]{Marsili-superconducting2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Marsili}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Verma}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont {Nam}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Nature Photon.}\
+  }\textbf {\bibinfo {volume} {7}},\ \bibinfo {pages} {210} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lita}\ \emph {et~al.}(2002)\citenamefont {Lita},
+  \citenamefont {Miller},\ and\ \citenamefont
+  {Nam}}]{Lita-superconducting2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~E.}\ \bibnamefont
+  {Lita}}, \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Miller}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.~W.}\ \bibnamefont {Nam}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Opt. Express}\
+  }\textbf {\bibinfo {volume} {16}},\ \bibinfo {pages} {3032} (\bibinfo {year}
+  {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Natarajan}\ \emph {et~al.}(2012)\citenamefont
+  {Natarajan}, \citenamefont {Tanner},\ and\ \citenamefont
+  {Hadfield}}]{Chandra2012Superconducting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~M.}\ \bibnamefont
+  {Natarajan}}, \bibinfo {author} {\bibfnamefont {M.~G.}\ \bibnamefont
+  {Tanner}}, \ and\ \bibinfo {author} {\bibfnamefont {R.~H.}\ \bibnamefont
+  {Hadfield}},\ }\href {http://stacks.iop.org/0953-2048/25/i=6/a=063001}
+  {\bibfield  {journal} {\bibinfo  {journal} {Superconductor Science and
+  Technology}\ }\textbf {\bibinfo {volume} {25}},\ \bibinfo {pages} {063001}
+  (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2017)\citenamefont {Zhang},
+  \citenamefont {You}, \citenamefont {Li}, \citenamefont {Huang}, \citenamefont
+  {Lv}, \citenamefont {Zhang}, \citenamefont {Liu}, \citenamefont {Wu},
+  \citenamefont {Wang},\ and\ \citenamefont
+  {Xie}}]{Zhang2017-NbN-superconducting}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {You}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Li}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Huang}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Lv}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Wu}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Wang}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Xie}},\ }\href {\doibase
+  10.1007/s11433-017-9113-4} {\bibfield  {journal} {\bibinfo  {journal}
+  {Science China Physics, Mechanics {\&} Astronomy}\ }\textbf {\bibinfo
+  {volume} {60}},\ \bibinfo {pages} {120314} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Albota}\ and\ \citenamefont
+  {Wong}(2004)}]{Marius-Upconversion2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~A.}\ \bibnamefont
+  {Albota}}\ and\ \bibinfo {author} {\bibfnamefont {F.~N.~C.}\ \bibnamefont
+  {Wong}},\ }\href {\doibase 10.1364/OL.29.001449} {\bibfield  {journal}
+  {\bibinfo  {journal} {Opt. Lett.}\ }\textbf {\bibinfo {volume} {29}},\
+  \bibinfo {pages} {1449} (\bibinfo {year} {2004})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rubenok}\ \emph {et~al.}(2013)\citenamefont
+  {Rubenok}, \citenamefont {Slater}, \citenamefont {Chan}, \citenamefont
+  {Lucio-Martinez},\ and\ \citenamefont {Tittel}}]{Rubenok-qkd2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Rubenok}}, \bibinfo {author} {\bibfnamefont {J.~A.}\ \bibnamefont {Slater}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Chan}}, \bibinfo {author}
+  {\bibfnamefont {I.}~\bibnamefont {Lucio-Martinez}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Tittel}},\ }\href {\doibase
+  10.1103/PhysRevLett.111.130501} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {111}},\ \bibinfo {pages}
+  {130501} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Günthner}\ \emph {et~al.}(2015)\citenamefont
+  {Günthner}, \citenamefont {Pressl}, \citenamefont {Laiho}, \citenamefont
+  {Geßler}, \citenamefont {Höfling}, \citenamefont {Kamp}, \citenamefont
+  {Schneider},\ and\ \citenamefont {Weihs}}]{TGunthner-brw2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Günthner}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Pressl}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Laiho}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Geßler}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Höfling}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Kamp}}, \bibinfo {author} {\bibfnamefont
+  {C.}~\bibnamefont {Schneider}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Weihs}},\ }\href
+  {http://stacks.iop.org/2040-8986/17/i=12/a=125201} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Optics}\ }\textbf {\bibinfo {volume} {17}},\
+  \bibinfo {pages} {125201} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yuan}\ \emph {et~al.}(2007)\citenamefont {Yuan},
+  \citenamefont {Kardynal}, \citenamefont {Sharpe},\ and\ \citenamefont
+  {Shields}}]{ZLYuan-DS2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.~L.}\ \bibnamefont
+  {Yuan}}, \bibinfo {author} {\bibfnamefont {B.~E.}\ \bibnamefont {Kardynal}},
+  \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Sharpe}}, \ and\
+  \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Shields}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Appl. Phys.
+  Lett.}\ }\textbf {\bibinfo {volume} {91}},\ \bibinfo {pages} {041114}
+  (\bibinfo {year} {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Namekata}\ \emph {et~al.}(2006)\citenamefont
+  {Namekata}, \citenamefont {Sasamori},\ and\ \citenamefont
+  {Inoue}}]{NKata-sine2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Namekata}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Sasamori}},
+  \ and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Inoue}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Opt. Express}\
+  }\textbf {\bibinfo {volume} {14}},\ \bibinfo {pages} {10043} (\bibinfo {year}
+  {2006})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jiang}\ \emph {et~al.}(2017)\citenamefont {Jiang},
+  \citenamefont {Liu}, \citenamefont {Liu}, \citenamefont {Jin}, \citenamefont
+  {Zhang},\ and\ \citenamefont {Pan}}]{Jiang2017Wen-Hao-Jiang}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {W.-H.}\ \bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {J.-H.}\ \bibnamefont {Liu}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Liu}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Jin}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Zhang}}, \ and\ \bibinfo {author} {\bibfnamefont {J.-W.}\
+  \bibnamefont {Pan}},\ }\href {\doibase 10.1364/OL.42.005090} {\bibfield
+  {journal} {\bibinfo  {journal} {Opt. Lett.}\ }\textbf {\bibinfo {volume}
+  {42}},\ \bibinfo {pages} {5090} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Xu}\ \emph {et~al.}(2009)\citenamefont {Xu},
+  \citenamefont {Wu}, \citenamefont {Gu}, \citenamefont {Jian}, \citenamefont
+  {Wu},\ and\ \citenamefont {Zeng}}]{HPZeng-DS2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~L.}\ \bibnamefont
+  {Xu}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Wu}}, \bibinfo
+  {author} {\bibfnamefont {X.~R.}\ \bibnamefont {Gu}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Jian}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Wu}}, \ and\ \bibinfo {author} {\bibfnamefont {H.~P.}\
+  \bibnamefont {Zeng}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Appl. Phys. Lett.}\ }\textbf {\bibinfo {volume} {94}},\ \bibinfo
+  {pages} {161106} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cho}\ and\ \citenamefont
+  {Kang}(2011)}]{Beom-gated2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.-B.}\ \bibnamefont
+  {Cho}}\ and\ \bibinfo {author} {\bibfnamefont {S.-K.}\ \bibnamefont {Kang}},\
+  }\href {\doibase 10.1364/OE.19.018510} {\bibfield  {journal} {\bibinfo
+  {journal} {Opt. Express}\ }\textbf {\bibinfo {volume} {19}},\ \bibinfo
+  {pages} {18510} (\bibinfo {year} {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yuan}\ \emph {et~al.}(2010)\citenamefont {Yuan},
+  \citenamefont {Sharpe}, \citenamefont {Dynes}, \citenamefont {Dixon},\ and\
+  \citenamefont {Shields}}]{ZLYuan-Multi2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.~L.}\ \bibnamefont
+  {Yuan}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Sharpe}},
+  \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Dynes}}, \bibinfo
+  {author} {\bibfnamefont {A.~R.}\ \bibnamefont {Dixon}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Shields}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Appl. Phys. Lett.}\ }\textbf
+  {\bibinfo {volume} {96}},\ \bibinfo {pages} {071101} (\bibinfo {year}
+  {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Namekata}\ \emph {et~al.}(2009)\citenamefont
+  {Namekata}, \citenamefont {Adachi},\ and\ \citenamefont
+  {Inoue}}]{NKata-sine2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Namekata}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Adachi}}, \
+  and\ \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Inoue}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {Opt. Express}\
+  }\textbf {\bibinfo {volume} {17}},\ \bibinfo {pages} {6275} (\bibinfo {year}
+  {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liang}\ \emph {et~al.}(2012)\citenamefont {Liang},
+  \citenamefont {Liu}, \citenamefont {Wang}, \citenamefont {Du}, \citenamefont
+  {Ma}, \citenamefont {Jin}, \citenamefont {Chen}, \citenamefont {Zhang},\ and\
+  \citenamefont {Pan}}]{Pan-sine2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Liang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {Q.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Du}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Ma}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Jin}}, \bibinfo {author} {\bibfnamefont {Z.-B.}\ \bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zhang}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.-W.}\ \bibnamefont {Pan}},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {REV. SCI. INSTRUM.}\ }\textbf
+  {\bibinfo {volume} {83}},\ \bibinfo {pages} {083111} (\bibinfo {year}
+  {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Comandar}\ \emph {et~al.}(2015)\citenamefont
+  {Comandar}, \citenamefont {Fröhlich}, \citenamefont {Dynes}, \citenamefont
+  {Sharpe}, \citenamefont {Lucamarini}, \citenamefont {Yuan}, \citenamefont
+  {Penty},\ and\ \citenamefont {J.Shields}}]{Comandar-55efficeincy2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~C.}\ \bibnamefont
+  {Comandar}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Fröhlich}},
+  \bibinfo {author} {\bibfnamefont {J.~F.}\ \bibnamefont {Dynes}}, \bibinfo
+  {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Sharpe}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Lucamarini}}, \bibinfo {author}
+  {\bibfnamefont {Z.~L.}\ \bibnamefont {Yuan}}, \bibinfo {author}
+  {\bibfnamefont {R.~V.}\ \bibnamefont {Penty}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {J.Shields}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {J. Appl. Phys.}\ }\textbf {\bibinfo {volume}
+  {117}},\ \bibinfo {pages} {083109} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Takahashi}\ \emph {et~al.}(2007)\citenamefont
+  {Takahashi}, \citenamefont {Tajima},\ and\ \citenamefont
+  {Tomita}}]{Seigo-adc2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Takahashi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Tajima}}, \
+  and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Tomita}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {13th Microoptics
+  Congerence (MOC'07), Sunport Takamatsu, Kagawa, Japan}\ } (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Cova}\ \emph {et~al.}(1996)\citenamefont {Cova},
+  \citenamefont {Ghioni}, \citenamefont {Lacaita}, \citenamefont {Samori},\
+  and\ \citenamefont {Zappa}}]{SCova-photodiodes1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Cova}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Ghioni}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Lacaita}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Samori}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Zappa}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Appl. Opt.}\ }\textbf {\bibinfo {volume}
+  {35}},\ \bibinfo {pages} {1956} (\bibinfo {year} {1996})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2009)\citenamefont {Zhang},
+  \citenamefont {Thew}, \citenamefont {Barreiro},\ and\ \citenamefont
+  {Zbinden}}]{Zhang-practical2009}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Thew}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Barreiro}}, \ and\
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Zbinden}},\ }\href
+  {\doibase 10.1063/1.3223576} {\bibfield  {journal} {\bibinfo  {journal}
+  {Appl. Phys. Lett.}\ }\textbf {\bibinfo {volume} {95}},\ \bibinfo {pages}
+  {091103} (\bibinfo {year} {2009})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Comandar}\ \emph {et~al.}(2014)\citenamefont
+  {Comandar}, \citenamefont {Fröhlich}, \citenamefont {Lucamarini},
+  \citenamefont {Patel}, \citenamefont {Sharpe}, \citenamefont {Dynes},
+  \citenamefont {Yuan}, \citenamefont {Penty},\ and\ \citenamefont
+  {Shields}}]{Comandar2014Room-temperature}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.~C.}\ \bibnamefont
+  {Comandar}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Fröhlich}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Lucamarini}}, \bibinfo
+  {author} {\bibfnamefont {K.~A.}\ \bibnamefont {Patel}}, \bibinfo {author}
+  {\bibfnamefont {A.~W.}\ \bibnamefont {Sharpe}}, \bibinfo {author}
+  {\bibfnamefont {J.~F.}\ \bibnamefont {Dynes}}, \bibinfo {author}
+  {\bibfnamefont {Z.~L.}\ \bibnamefont {Yuan}}, \bibinfo {author}
+  {\bibfnamefont {R.~V.}\ \bibnamefont {Penty}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {A.~J.}\ \bibnamefont {Shields}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Appl. Phys. Lett.}\ }\textbf {\bibinfo
+  {volume} {104}},\ \bibinfo {pages} {175} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Korzh}\ \emph {et~al.}(2014)\citenamefont {Korzh},
+  \citenamefont {Walenta}, \citenamefont {Lunghi}, \citenamefont {Gisin},\ and\
+  \citenamefont {Zbinden}}]{Korzh-NFAD2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Korzh}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Walenta}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Lunghi}}, \bibinfo
+  {author} {\bibfnamefont {N.}~\bibnamefont {Gisin}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {H.}~\bibnamefont {Zbinden}},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Appl. Phys. Lett.}\ }\textbf {\bibinfo
+  {volume} {104}},\ \bibinfo {pages} {081108} (\bibinfo {year}
+  {2014})}\BibitemShut {NoStop}%
+\end{thebibliography}%
